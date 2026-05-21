@@ -1,327 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="gym.css">
-    <!--fonts.google-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
-    <!--fonts.google-->
-    <title>yasso</title>
+    <link rel="stylesheet" href="stely.css">
+    <title>Document</title>
 </head>
-
 <body>
-    <!--part_1_first-->
-    <ul class="sidebar">
-        <li onclick=hidesidebar()><a href="#"><span class="material-symbols-outlined">
-                    close
-                </span></a></li>
-        <li><a href="#Home">Home</a></li>
-        <li><a href="#About">About</a></li>
-        <li><a href="#Serices">Services</a></li>
-        <li><a href="#Programs">Programs</a></li>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luzen — Interior Design</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
 
-
-        <li><a href="#Contact">Contact</a></li>
+<!-- ── NAV ── -->
+<nav>
+  <div class="container flex-between">
+    <a href="#home" class="logo">Luzen</a>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Services</a></li>
+      <li><a href="#Projects">Projects</a></li>
+      <li><a href="#help">Contact</a></li>
     </ul>
+  </div>
+</nav>
 
-    <nav class="sidebar-2">
+<!-- ── HERO ── -->
+<section id="home">
+  <div class="hero-bg"></div>
+  <div class="container">
+    <div class="hero-content fade-up">
+      <span class="tag">Interior Design Studio</span>
+      <h1>We elevate spaces, we elevate lives</h1>
+      <p>Sleek, purposeful design built to showcase your creative vision and captivate every client.</p>
+      <div class="hero-actions">
+        <a href="#Projects" class="btn btn-primary">View Projects</a>
+        <a href="#about"    class="btn btn-outline">Our Story</a>
+      </div>
+    </div>
+  </div>
+</section>
 
+<!-- ── ABOUT ── -->
+<section id="about" class="section">
+  <div class="container">
+    <div class="grid-2">
+      <div class="about-img-stack fade-up">
+        <img src="https://images.pexels.com/photos/6962865/pexels-photo-6962865.jpeg" alt="Interior space">
+        <img src="https://images.pexels.com/photos/6264414/pexels-photo-6264414.jpeg" alt="Design detail">
+      </div>
+      <div class="fade-up">
+        <span class="tag">About Us</span>
+        <h2>Design with purpose. Style with heart.</h2>
+        <div class="divider"></div>
+        <p>At Luzen, great design goes beyond aesthetics — it tells your story, supports your lifestyle, and inspires daily living.</p>
+        <br>
+        <p>With years of experience in residential and commercial interiors, our team blends creativity with function to craft spaces that feel as good as they look. From initial concepts to final styling touches, we're with you every step of the way.</p>
+        <br>
+        <a href="#help" class="btn btn-primary" style="margin-top:.5rem">Start a Project</a>
+      </div>
+    </div>
+  </div>
+</section>
 
+<!-- ── STATS ── -->
+<section id="stats" class="section">
+  <div class="container">
+    <div class="grid-4">
+      <div class="stat-card fade-up">
+        <div class="num">250+</div>
+        <p>Clients who trust our vision and craftsmanship</p>
+      </div>
+      <div class="stat-card fade-up">
+        <div class="num">90+</div>
+        <p>Completed projects across various sectors</p>
+      </div>
+      <div class="stat-card fade-up">
+        <div class="num">500+</div>
+        <p>Architects and engineers focused on quality</p>
+      </div>
+      <div class="stat-card fade-up">
+        <div class="num">$5.5M+</div>
+        <p>In projects managed with precision and skill</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SERVICES ── -->
+<section id="skills" class="section">
+  <div class="container">
+    <div style="text-align:center; margin-bottom:3rem" class="fade-up">
+      <span class="tag">What We Do</span>
+      <h2>Expert guidance at every stage</h2>
+    </div>
+    <div class="grid-3">
+      <div class="service-card fade-up">
+        <div class="service-icon">🏛️</div>
+        <h3>Concept Design</h3>
+        <p>We translate your vision into detailed concepts — moodboards, layouts, and material palettes tailored to you.</p>
+      </div>
+      <div class="service-card fade-up">
+        <div class="service-icon">🪑</div>
+        <h3>Furniture & Styling</h3>
+        <p>Curated selections of furniture and décor that balance comfort, function, and timeless elegance.</p>
+      </div>
+      <div class="service-card fade-up">
+        <div class="service-icon">🏗️</div>
+        <h3>Project Management</h3>
+        <p>From contractors to final walk-through, we oversee every detail so you can enjoy the transformation.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── PROJECTS ── -->
+<section id="Projects" class="section">
+  <div class="container">
+    <div class="section-head fade-up">
+      <span class="tag">Our Work</span>
+      <h2>Featured Projects</h2>
+      <p style="max-width:520px; margin:.75rem auto 0">Discover our featured works showcasing expertise and passion. Let these stories inspire your next venture.</p>
+    </div>
+    <div class="project-grid">
+      <div class="project-card fade-up">
+        <img src="https://images.pexels.com/photos/4906249/pexels-photo-4906249.jpeg" alt="Modern Loft">
+        <div class="project-overlay">
+          <span>Residential</span>
+          <h3>Modern Loft Design</h3>
+        </div>
+      </div>
+      <div class="project-card fade-up">
+        <img src="https://images.pexels.com/photos/33827311/pexels-photo-33827311.jpeg" alt="Urban Living">
+        <div class="project-overlay">
+          <span>Commercial</span>
+          <h3>Urban Living Space</h3>
+        </div>
+      </div>
+      <div class="project-card fade-up">
+        <img src="https://images.pexels.com/photos/6489110/pexels-photo-6489110.jpeg" alt="Minimalist Studio">
+        <div class="project-overlay">
+          <span>Residential</span>
+          <h3>Minimalist Studio</h3>
+        </div>
+      </div>
+      <div class="project-card fade-up">
+        <img src="https://images.pexels.com/photos/7031733/pexels-photo-7031733.jpeg" alt="Luxury Suite">
+        <div class="project-overlay">
+          <span>Hospitality</span>
+          <h3>Luxury Suite Interior</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA ── -->
+<section id="help" class="section">
+  <div class="container">
+    <span class="tag">Get in Touch</span>
+    <h2 class="fade-up">Ready to transform your space?</h2>
+    <div class="divider" style="margin:1rem auto"></div>
+    <p class="fade-up">Let's create something beautiful together — a space that's not just stunning, but beautifully yours.</p>
+    <a href="mailto:hello@luzen.studio" class="btn btn-primary fade-up" style="margin-top:1.5rem">Book a Consultation</a>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="logo-wrap">
+        <div class="logo">Luzen</div>
+        <p style="max-width:280px; font-size:.875rem">Elevating interiors with purpose-driven design since 2015.</p>
+      </div>
+      <div>
+        <div class="col-title">Navigation</div>
         <ul>
-
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Serices">Services</a></li>
-            <li><a href="#Programs">Programs</a></li>
-
-
-            <li><a href="#Contact">Contact</a></li>
-            <li onclick=showsidebar() class="menu"><a href="#"><span class="material-symbols-outlined">
-                        menu
-                    </span>
-                </a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Services</a></li>
+          <li><a href="#Projects">Projects</a></li>
         </ul>
-        <h1 class="yasser_sham"><a href="yasser.html">Iron Temple</a></h1>
-    </nav>
-    <!--part_1_end-->
+      </div>
+      <div>
+        <div class="col-title">Contact</div>
+        <ul>
+          <li><a href="mailto:hello@luzen.studio">hello@luzen.studio</a></li>
+          <li><a href="#">+1 (800) 555-0192</a></li>
+          <li><a href="#">New York, NY</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copy">© 2025 Luzen Interior Studio. All rights reserved.</div>
+  </div>
+</footer>
 
-    <main>
-        <!--part_2_firest-->
-        <section class="part-2-img-1" id="Home">
+<script>
+  // Fade-up on scroll
+  const observer = new IntersectionObserver(
+    entries => entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }),
+    { threshold: 0.12 }
+  );
+  document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
 
-            <img src="https://images.pexels.com/photos/4944435/pexels-photo-4944435.jpeg" alt="img-1" class="img1">
-
-            <div>
-                <h2>Train insane or <br> remain the same</h2>
-            </div>
-        </section>
-        <!--part_2_end-->
-
-        <!--part_3_firest-->
-        <section class="part-3">
-            <h2 class="header-3" id="About">About Us</h2>
-            <p>At Bakkar Services, we believe fitness is not just about building muscle —<br> it’s about building
-                discipline,
-                confidence, and a strong mindset. <br>
-
-                Our mission is to help you achieve your physical goals through structured training programs,<br> expert
-                guidance, and real results.
-                Whether you’re a beginner or an advanced athlete, we train smart, hard, and safe.</p>
-            <div class="about-3">
-                <div class="itame"><img src="https://images.pexels.com/photos/13951240/pexels-photo-13951240.jpeg"
-                        alt="img-part-3-Certified"></div>
-                <div class="itame"><img src="https://images.pexels.com/photos/4944958/pexels-photo-4944958.jpeg"
-                        alt="Customized-part-3"></div>
-                <div class="itame"><img src="https://images.pexels.com/photos/5327523/pexels-photo-5327523.jpeg"
-                        alt="img-part-3Results-driven training approach"></div>
-            </div>
-        </section>
-        <!--part_3_end-->
-
-        <!--part_4_firest-->
-        <section id="Serices" class="part-4">
-            <h2>Our Services</h2>
-            <div class="kid-1">
-                <img src="https://images.unsplash.com/photo-1704223523303-a5ed14561b1f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cGVyc29uYWwlMjB0cmFpbmVyfGVufDB8fDB8fHww"
-                    alt="img-1-part-4">
-                <div>
-                    <h3>Personal Training:</h3>
-                    <p>Our certified trainers work one-on-one with you to create a <br> personalized training plan based
-                        on
-                        your
-                        goals, fitness level, and body type. <br>
-                        We focus on proper technique, injury prevention, <br> and consistent progress to help you
-                        achieve
-                        real
-                        results.</p>
-                </div>
-            </div>
-            <div class="kid-2">
-                <div>
-                    <h3>Professional Coaching Team:</h3>
-                    <p>Our coaching team consists of experienced and certified trainers <br> who are passionate about
-                        fitness and
-                        dedicated to your success. <br>
-                        They provide continuous support,<br> motivation, and guidance throughout your fitness journey.
-                    </p>
-                </div>
-                <img src="https://images.unsplash.com/photo-1734668480921-2a34650b043e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fCVGMCU5RiU5MSVBNSUyMFByb2Zlc3Npb25hbCUyMENvYWNoaW5nJTIwVGVhbSUyMGd5bXxlbnwwfHwwfHx8MA%3D%3D"
-                    alt="img-2-part-4">
-            </div>
-            <div class="kid-3">
-                <img src="https://plus.unsplash.com/premium_photo-1664474672408-d714c4a7f6ab?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fFdlaWdodCUyMExvc3MlMjBQcm9ncmFtcyUyMGd5bXxlbnwwfHwwfHx8MA%3D%3D"
-                    alt="img-3-part-4">
-                <div>
-                    <h3>Weight Loss Programs:</h3>
-                    <p>Structured fat-loss programs designed by professional trainers to help you burn calories,<br>
-                        improve
-                        endurance, and achieve a healthier lifestyle. <br>
-                        Every program is adjusted to match your progress and physical condition.</p>
-                </div>
-
-            </div>
-            <div class="kid-4">
-                <div>
-                    <h3>Muscle Building Programs:</h3>
-                    <p>Our muscle-building services focus on strength, hypertrophy, and performance. <br>
-                        With scientifically designed workouts and professional supervision, <br> we help you build
-                        muscle
-                        safely and effectively.</p>
-                </div>
-
-                <img src="https://images.unsplash.com/photo-1734668486909-4637ecd66408?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TXVzY2xlJTIwQnVpbGRpbmclMjBQcm9ncmFtc3xlbnwwfHwwfHx8MA%3D%3D"
-                    alt="img-4-part-4">
-            </div>
-        </section>
-        <!--part_4_end-->
-
-        <div class="sss"></div>
-
-        <!--part_5_firest-->
-        <section class="part-5" id="Programs">
-            <h2>Programs</h2>
-            <h2>Choose the program that fits your goals</h2>
-            <div class="kid-1">
-                <div class="itame">
-                    <div><b>🟢 Beginner Program</b>
-                        <p>Perfect for beginners starting their fitness journey and building a strong foundation.
-                            <br><b>Features (List):</b><br>
-
-                            Full body workouts <br>
-
-                            Basic nutrition guidance <br>
-
-                            3–4 sessions per week
-                        </p>
-                        <button>Join Now</button>
-                    </div>
-                </div>
-                <div class="itame">
-                    <div><b>🔵 Intermediate Program</b>
-                        <p>Designed for gym trainees who want to level up strength and muscle growth. <br>
-
-                            <b>Features: </b> <br>
-
-                            Split training routines <br>
-
-                            Focus on strength & hypertrophy <br>
-
-                            4–5 sessions per week
-                        </p>
-                        <button>Join Now</button>
-                    </div>
-                </div>
-                <div class="itame">
-                    <div><b>🔴 Advanced Program</b>
-                        <p>For serious athletes aiming for maximum performance and elite results. <br><b>Features:
-                            </b><br>
-
-                            High-intensity training <br>
-
-                            Performance optimization <br>
-
-                            Personalized workout plan</p>
-                        <button>Join Now</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--part_5_end-->
-
-        <!--part-6-firest-->
-        <!--part_6_end-->
-
-        <!--part_7_firest-->
-        <section id="Contact" class="Contact">
-            <h2 class="part-7"><i class="fa-solid fa-headset"></i>Get In <span style="color: #20C997;">Touch </span>
-            </h2>
-
-            <div class="row">
-                <img src="https://cdn-icons-png.flaticon.com/512/1886/1886873.png" alt="vector/happy">
-                <form action="https://formsubmit.co/YasserSham09@gmail.com?test=1" method="POST">
-                    <input type="text" class="text" name="text" id="text" placeholder="text" required>
-                    <input type="email" class="email" name="email" id="email" placeholder="email" required>
-                    <textarea name="massage" id="massage" cols="30" rows="10" placeholder="massage"></textarea>
-                    <button type="submit" class="bnt-primary">submit</button>
-                </form>
-            </div>
-        </section>
-        <!--part_7_end-->
-    </main>
-
-    <footer class="footer">
-        <div class="footer-container">
-
-            <div class="footer-box">
-                <h2>Bakkar Group</h2>
-                <p>Providing professional digital services with quality and trust.</p>
-            </div>
-
-            <div class="footer-box">
-                <h4>Quick Links</h4>
-                <ul>
-                    <li><a href="#Home">Home</a></li>
-                    <li><a href="#Serices">Services</a></li>
-                    <li><a href="#About">About</a></li>
-                    <li><a href="#Contact">Contact</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-box">
-                <h4>Contact</h4>
-                <p>Email: support@bakkar.com</p>
-                <p>Discord: Bakkar#0001</p>
-            </div>
-
-        </div>
-
-        <div class="footer-bottom">
-            <p>© 2026 Bakkar Group. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <!--firest-script-->
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-        function showsidebar() { document.querySelector('.sidebar').style.right = '0'; }
-        function hidesidebar() { document.querySelector('.sidebar').style.right = '-100%'; }
-        const boxes = document.querySelectorAll('.hidden'); const observer = new IntersectionObserver
-            (entries => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) { entry.target.classList.add('show'); }
-                });
-            }); boxes.forEach(box => observer.observe(box));
-        const sr = ScrollReveal({
-            distance: '60px',
-            duration: 900,
-            easing: 'ease-in-out',
-            reset: false
-        });
-
-
-        sr.reveal('.part-2-img-1 h2', {
-            origin: 'bottom'
-        });
-
-
-        sr.reveal('.header-3', {
-            origin: 'top'
-        });
-
-        sr.reveal('.part-3 p', {
-            delay: 200
-        });
-
-        sr.reveal('.about-3 .itame', {
-            interval: 200,
-            origin: 'bottom'
-        });
-
-
-        sr.reveal('.part-4 h2', {
-            origin: 'top'
-        });
-
-        sr.reveal('.kid-1 img, .kid-2 img, .kid-3 img, .kid-4 img', {
-            origin: 'left'
-        });
-
-        sr.reveal('.kid-1 div, .kid-2 div, .kid-3 div, .kid-4 div', {
-            origin: 'right'
-        });
-
-
-        sr.reveal('.part-5 h2', {
-            origin: 'top'
-        });
-
-        sr.reveal('.part-5 .itame', {
-            interval: 200,
-            origin: 'bottom'
-        });
-
-
-        sr.reveal('.Contact h2', {
-            origin: 'top'
-        });
-
-        sr.reveal('.Contact img', {
-            origin: 'left'
-        });
-
-        sr.reveal('.Contact form', {
-            origin: 'right'
-        });
-
-
-        sr.reveal('.footer-box', {
-            interval: 200,
-            origin: 'bottom'
-        });
-    </script>
-    <!--end-script-->
+  // Nav active state
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('nav ul a');
+  window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(s => { if (window.scrollY >= s.offsetTop - 120) current = s.id; });
+    navLinks.forEach(a => {
+      a.style.opacity = a.getAttribute('href') === '#' + current ? '1' : '';
+      a.style.color   = a.getAttribute('href') === '#' + current ? 'var(--gold)' : '';
+    });
+  });
+</script>
 </body>
-
+</html>
+</body>
 </html>
